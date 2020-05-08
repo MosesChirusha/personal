@@ -1,0 +1,643 @@
+/*
+	Design of the body and main container
+*/
+
+body
+{
+	
+	color: #777777;
+  	font-family: "Poppins", sans-serif;
+  	font-size: 14px;
+  	font-weight: 300;
+  	line-height: 1.625em;
+}
+
+.container
+{
+	width: 100%;
+	margin: auto;
+}
+
+/* All the headings are in capital letters */
+section h1, footer h1, nav a
+{
+	font-family: Dayrom, serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/* Creation of the navigation bar, and 2 buttons */
+header
+{
+	background: rgba(0, 0, 0, 1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 997;
+}
+
+.header-logo
+{
+	display: inline-block;
+}
+
+header h1
+{
+	font-family: "Poppins", sans-serif;
+	font-size: 2.3em;
+	font-weight: normal;
+	color: white;
+	padding-bottom: 2px;
+}
+
+.header-img, header h1
+{
+	display: inline-block;
+}
+
+.header-img{
+	padding-top: 10px;
+}
+
+nav
+{
+	display: inline-block;
+	width: 840px;
+	text-align: right;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav li
+{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+nav a
+{
+	font-size: 1.3em;
+	color: #fff;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+ nav a:hover
+ {
+ 	color: #ff64f3;
+ 	border-bottom: 3px solid #ff64f3;
+ }
+
+ .btn
+ {
+ 	display: inline-block;
+ 	width: 300px;
+ 	text-align: right;
+ }
+
+ .btn a
+ {
+ 	font-size: 1.2em;
+ 	color: #ff64f3;
+ 	text-decoration: none;
+ 	margin-right: 20px;
+ 	background-color: white;
+ 	border: 2px solid #ff64f3;
+ 	border-radius: 5px;
+ 	padding: 5px 5px 5px 5px;
+ }
+
+ .btn a:hover
+ {
+ 	background-color: #ff64f3;
+ 	color: white;
+ }
+
+ /*Design of the introduction area */
+ .introduction-section
+ {
+ 	position: relative;
+ 	margin-top: 20px;
+ 	background: url("../img/bg2.png") no-repeat;
+ 	height: 780px;
+ }
+
+ .int-description{
+ 	position: absolute;
+ 	bottom: 0;
+ 	width: 100%;
+ 	text-align: center;
+ 	padding-bottom: 200px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	color: #fff;
+ }
+
+ .int-description h5{
+ 	text-transform: uppercase;
+ 	font-size: 20px;
+ 	font-weight: 600;
+ 	letter-spacing: 2px;
+ }
+
+ .int-description h1{
+ 	text-transform: uppercase;
+ 	font-size: 50px;
+ 	font-weight: 600;
+ 	line-height: 1em;
+ }
+.int-description a{
+	display: inline-block;
+	height: 30px;
+	border: 1px solid #ff64f3;
+	border-radius: 5px;
+	background: #a12081;
+	font-size: 2.2em;
+	text-align: center;
+	padding: 10px 0px 5px 0px;
+	color: white;
+	text-decoration: none;
+}
+
+.int-description a:hover{
+	background: rgba(0,0,0,0.1);
+	color: #ff64f3;
+}
+
+/* Design of the section */
+section{
+	width: 80%;
+	margin: auto;
+	margin-top: 100px;
+}
+
+article, aside{
+	display: inline-block;
+	vertical-align: top;
+}
+
+article{
+	width: 750px;
+	margin-right: 40px;
+}
+
+article h1{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+article p{
+	font-size: 1.2em;
+}
+
+aside{
+	position: relative;
+	width: 455px;
+	background: #706b64;
+	box-shadow: 0px 2px 5px #1c1a19;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+aside h1{
+	text-align: center;
+}
+
+aside hr{
+	border: 1.5px solid #fff;
+	margin-bottom: 25px;
+}
+
+aside input, aside label, aside select{
+	display: block;
+	margin-left: 20px;
+	font-size: 1.2em;
+	margin-top: 3px;
+}
+
+aside input, aside select{
+	margin-bottom: 10px;
+	padding-left: 10px;
+	width: 75%;
+	height: 40px;
+	color: #5a5854;
+	background: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 7px;
+}
+
+aside input:focus{
+	background-color: #ffffff;
+	border: 1px solid #b1e1e4;
+}
+
+aside button{
+	background: #061370;
+	border: 2px solid #f5ddef;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2em;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	width: 40%;
+	height: 35px;
+}
+
+aside button:hover{
+	background: #a12081;
+	color: #fff;
+}
+
+.social{
+	
+	margin: 0px 0px 5px 58px;
+}
+
+/* Events design */
+.events{
+	display: inline-block;
+	width: 360px;
+	vertical-align: top;
+	margin-right: 13px;
+	margin-bottom: 30px;
+	box-shadow:  0 1px 12px 0 rgba(0, 0, 0, 0.6);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.events img{
+	width: 100%;
+	height: 350px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.events p, .events h3{
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.events .info-date{
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: #9e0e92;
+}
+
+.events h3{
+	font-size: 36px;
+	line-height: 1.3;
+}
+
+/* Design of the footer */
+footer{
+	background: rgba(1,1,1,0.8);
+}
+
+footer p, footer ul{
+	font-size: 1.2em;
+	color: #a0a0a0;
+}
+
+footer h1{
+	font-size: 1.5em;
+	margin-left: 60px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.desc, .links, .newsletter{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.desc{
+	width: 33%;
+}
+.desc p{
+	padding-left: 20px;
+}
+.links{
+	width: 32%;
+}
+.newsletter{
+	width: 30%;
+}
+
+.links ul{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0;
+	list-style-type: none;
+}
+
+.links li{
+	margin-top: 5px;
+}
+
+.links a{
+	text-decoration: none;
+	color: #a0a0a0;
+}
+
+.links a:hover{
+	text-decoration: underline;
+	color: #ff64f3;
+	font-size: 1.5em;
+}
+
+.newsletter input[type=email]{
+	width: 70%;
+	height: 35px;
+	border: 2px solid #fff;
+	border-radius: 15px;
+	padding-left: 10px;
+	font-size: 1.2em;
+}
+
+.newsletter input[type=submit]{
+	width: 20%;
+	height: 35px;
+	background: #a12081;
+	border: 2px solid #a12081;
+	color: #fff;
+	font-size: 1.2em;
+	margin-left: 5px;
+}
+
+/* ##########################################################
+				Design of the register page
+   ##########################################################
+ */
+
+ .content h1{
+ 	text-align: center;
+ }
+
+ .register{
+ 	position: relative;
+ 	width: 650px;
+ 	background: #706b64;
+ 	box-shadow: 0px 2px 5px #1c1a19;
+ 	border-radius: 5px;
+ 	color: #fff;
+ 	font-size: 1.2em;
+ 	margin: auto;
+ 	margin-bottom: 30px;
+ 	padding-bottom: 15px;
+ }
+
+ .register h2{
+ 	text-align: center;
+ 	padding-top: 10px;
+ }
+
+ .register input, .register label, .register select{
+	display: block;
+	margin-left: 20px;
+	font-size: 1.2em;
+	margin-top: 3px;
+}
+
+
+.register input, .register select{
+	margin-bottom: 10px;
+	padding-left: 10px;
+	width: 90%;
+	height: 40px;
+	color: #5a5854;
+	background: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 7px;
+}
+#dayBirth, #monthBirth, #yearBirth{
+	display: inline-block;
+	width: 20%;
+}
+.register input[type=radio]{
+	display: inline-block;
+	display: default;
+	width: 30px;
+}
+
+
+.register input:focus{
+	background-color: #ffffff;
+	border: 1px solid #b1e1e4;
+}
+
+.register input[type=submit]{
+	background: #061370;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2em;
+	margin: auto;
+	width: 50%;
+	height: 35px;
+}
+
+.register input[type=submit]:hover{
+	background: #a12081;
+	color: #fff;
+}
+
+/* ##########################################################
+				Design of the about-us page
+   ##########################################################
+ */
+
+.video-container{
+	margin-left: -100px;
+	width: 550px;
+	background: #fff;
+	border: none;
+	box-shadow: none;
+	margin-top: -50px;
+}
+
+.contact-heading h1, .contact-heading p{
+	text-align: center;
+}
+.contact-heading p{
+	font-size: 1.2em;
+}
+
+.block-1{
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	box-shadow:  0 1px 5px rgba(0, 0, 0, 0.3);
+	color: #575757;
+}
+
+.block-1 h2{
+	background-color: #e85aa5;
+    color: #222;
+    font-size: 18px;
+    padding: 12px 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.block-1 address{
+	text-align: center;
+	line-height: 2;
+}
+
+.block-1 address a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/* ##########################################################
+				Design of the accomodation page
+   ##########################################################
+ */
+
+.single-hotel{
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+	line-height: 1.8;
+	margin-bottom: 50px;
+}
+.hotel-img-1,.hotel-img-2, .hotel-img-3, .hotel-img-4, .hotel-desc{
+	display: inline-block;
+	vertical-align: top;
+}
+.hotel-img-1{
+	width: 450px;
+	height: 300px;
+	background: url("../img/hotel2.jpg");
+	background-size: cover;
+	background-position: center center;
+	max-height: 100%;
+}
+
+.hotel-img-2{
+	width: 450px;
+	height: 300px;
+	background: url("../img/hotel1.jpg");
+	background-size: cover;
+	background-position: center center;
+	max-height: 100%;
+}
+.hotel-img-3{
+	width: 450px;
+	height: 300px;
+	background: url("../img/hotel3.jpg");
+	background-size: cover;
+	background-position: center center;
+	max-height: 100%;
+}
+.hotel-img-4{
+	width: 450px;
+	height: 300px;
+	background: url("../img/hotel4.jpg");
+	background-size: cover;
+	background-position: center center;
+	max-height: 100%;
+}
+
+.hotel-desc{
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 700px;
+}
+
+.hotel-desc h2{
+	font-size: 2.3em;
+	color: #222;
+}
+
+.hotel-desc h5{
+	border-bottom: 2px solid #ddd;
+    color: #a12081;
+    font-size: 15px;
+    margin-bottom: 12px;
+    margin-top: -30px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.extra{
+	display: flex;
+	flex-flow: row nowrap;
+	font-size: 1.2em;
+	text-align: center;
+	list-style-type: none;
+}
+
+.extra li{
+	border: 1px solid #ccc;
+	flex-basis: 100%;
+}
+
+.extra li:hover{
+	background: #ff64f3;
+	color: #fff;
+}
+
+.rating{
+	color: #ff64f3;
+	font-size: 1.2em;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+
+.rating i{
+	display: inline-block;
+	background: #ff64f3;
+}
+
+.btn-book{
+	background-color: #000;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 5px;
+    padding: 8px 30px;
+    text-decoration: none;
+}
+
+.pagination ul{
+	display: flex;
+	flex-flow: row nowrap;
+	font-size: 1.2em;
+	text-align: center;
+	list-style-type: none;
+}
+
+.pagination li{
+	border: 1px solid #ccc;
+	min-width: 40px;
+	min-height: 30px;
+}
+
+.pagination a{
+	text-decoration: none;
+	padding: 15px 10px 5px 5px;
+}
+
+.locations li{
+	display: inline-block;
+	width: 400px;
+	height: 40px;
+	background: #0f305c;
+	margin-right: -2px;
+	border-right: 2px solid black;
+	color: #fff;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 5px;
+
+}
